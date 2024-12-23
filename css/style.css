@@ -5,3 +5,16 @@
 #head_title{
 	color: yellow;
 }
+
+.box{
+	border: 2px solid green;
+	width: 200px;
+	text-align: center;
+	padding: 30px;
+	margin: 20px;
+}
+
+.title{
+	color: darkred;
+	font-size: 20px;
+}
