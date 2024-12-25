@@ -6,6 +6,10 @@
 	color: yellow;
 }
 
+.static_div{
+	padding-bottom: 1000px;
+}
+
 .box{
 	border: 2px solid green;
 	width: 200px;
@@ -14,7 +18,124 @@
 	margin: 20px;
 }
 
-.title{
+.margin_outside{
 	color: darkred;
-	font-size: 20px;
+	font-size: 30px;
+}
+
+.tag{
+	display: inline;
+}
+
+.description{
+/*	color: red;*/
+/*	color: #ff0000;*/
+	color: rgb(255, 0, 0);
+
+	font-size: 50px;
+	text-align: center;
+	width: 50%;
+	margin: auto;
+	font-family: "Roboto", serif;
+	font-weight: 700;
+	font-style: normal;
+}
+
+.box_all{
+	width: 300px;
+	height: 200px;
+	margin-top: 10px;
+}
+
+.box1{
+	border: 2px solid green;
+	background-color: green;
+	position: sticky;
+	top: 0;
+
+}
+
+.box2{
+	border: 2px solid red;
+	background-color: red;
+	position: absolute;
+}
+
+.box3{
+	border: 2px solid orange;
+	background-color: orange;
+	position: relative;
+	margin-top: 100px;
+	margin-bottom: 200px;
+}
+
+.nested_box{
+	width: 50px;
+	height: 50px;
+	border: 1px solid red;
+	border-radius: 50%;
+	background-color: red;
+	position: absolute;
+	margin-left: 125px;
+	margin-top: 50px;
+}
+
+.name{
+	text-align: center;
+	font-weight: bold;
+	width: 150px;
+	height: 100px;
+}
+
+.alvarez{
+	border: 1px solid blue;
+	background-color: blue;
+}
+
+.warner{
+	border: 1px solid red;
+	background-color: red;
+}
+
+.smith{
+	border: 1px solid pink;
+	background-color: pink;
+}
+
+.paul{
+	border: 1px solid gold;
+	background-color: gold;
+}
+
+.fernandez{
+	border: 1px solid orange;
+	background-color: orange;
+}
+
+.container{
+	border: 1px solid darkred;
+	height: 400px;
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+}
+
+.banner{
+	width: full;
+	height: 800px;
+	border: 1px solid red;
+
+	background-image: url('images/bag.jpg'), linear-gradient(20deg, red, blue);
+	background-blend-mode: overlay;
+	background-repeat: no-repeat;
+/*	background-position: center;*/
+	background-size: cover;
+}
+
+button{
+	height: 40px;
+	width: 100px;
+	border-radius: 30px;
+	background: linear-gradient(50deg, lightblue, white);
+	background-blend-mode: overlay;
 }
