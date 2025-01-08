@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mr. Hungry</title>
+
+    <!-- css file -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- details card -->
+    <div id="card-details-container"></div>
+
+    <!-- search box and button -->
+    <div class="search-area">
+      <input
+        id="input-field"
+        class="input-field"
+        type="text"
+        placeholder="Find your favourite food..."
+        required
+      />
+      <button class="search-btn" onclick="showItem()">Search</button>
+    </div>
+
+    <!-- food items card -->
+    <div id="food-items-container"></div>
+
+    <!-- js file -->
+    <script src="app.js"></script>
+  </body>
+</html>
